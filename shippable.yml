@@ -5,6 +5,7 @@ node_js:
 - 10.8
 env:
 - XUNIT_FILE=shippable/testresults/result.xml
+runtime:
 nodePool: shippable_shared_aarch64
 addons:
   apt:
@@ -46,7 +47,6 @@ cache:
     - $HOME/.node-gyp
     - $HOME/.npm
     - node_modules
-runtime:
 notifications:
 email:
 recipients:
