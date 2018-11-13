@@ -107,4 +107,5 @@ recipients:
 build:
 ci:
 - npm install
+- node scripts/build -f
 - npm test
