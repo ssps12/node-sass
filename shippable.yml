@@ -89,10 +89,6 @@ before_install:
   - npm --version
   - gcc --version
   - g++ --version
-install:
-  - npm install
-script:
-  - npm test
 cache:
   directories:
     - $HOME/.node-gyp
