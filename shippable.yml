@@ -37,6 +37,7 @@ before_install:
   - npm --version
   - gcc --version
   - g++ --version
+  - uname -m
   - apt-get install g++-4.9 -y
   - npm install
   - node scripts/build -f
