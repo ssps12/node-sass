@@ -8,7 +8,7 @@ env:
 nodePool: shippable_shared_aarch64
 addons:
   apt:
-    - install g++-4.9
+    update: true
     sources:
       - ubuntu-toolchain-r-test
     packages:
@@ -37,6 +37,7 @@ before_install:
   - npm --version
   - gcc --version
   - g++ --version
+  - apt-get install g++-4.9 -y
   - npm install
   - node scripts/build -f
 cache:
