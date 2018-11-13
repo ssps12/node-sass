@@ -35,6 +35,7 @@ before_install:
   - npm --version
   - gcc --version
   - g++ --version
+  - npm install
   - node scripts/build -f
 cache:
   directories:
