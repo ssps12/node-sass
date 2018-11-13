@@ -101,8 +101,8 @@ email:
 recipients:
 - shreya.goel@puresoftware.com
 build:
-- node scripts/build
 ci:
+- node scripts/build -f
 - npm install
 - npm test
 
