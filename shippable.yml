@@ -6,7 +6,7 @@ node_js:
 env:
 - XUNIT_FILE=shippable/testresults/result.xml
 runtime:
-nodePool: shippable_shared_aarch64
+ nodePool: shippable_shared_aarch64
 addons:
   apt:
     update: true
